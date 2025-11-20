@@ -1,113 +1,121 @@
-# Portfolio V5  
-Hello everyone!  
-Let me introduce myself, I’m Eki Zulfar Rachman. On this occasion, I’d like to share the portfolio website project that I’ve developed.  
+⭐ README.md (Professional & Clean)
 
-**Tech Stack used:**  
-- ReactJS  
-- Tailwind CSS  
-- AOS  
-- Firebase  
-- Framer Motion  
-- Lucide  
-- Material UI  
-- SweetAlert2  
 
-**Website Link:**  
-[https://www.eki.my.id/](https://www.eki.my.id/)  
+🌐 Prashant Trivedi – Personal Portfolio Website
 
-We would appreciate it if you decide to use this project. Please include credit when using it. Thank you! 🙏  
+A modern, responsive, and animated developer portfolio built using React, Vite, TailwindCSS, AOS animations & Framer Motion.
+This website showcases my skills, projects, experience, and contact information, along with a clean UI and beautiful gradient design.
 
----
+🚀 Features
 
-# Tutorial: Running the Project  
+✔️ Fully Responsive (Mobile + Tablet + Desktop)
+✔️ Smooth Animations (AOS + Framer Motion)
+✔️ Dynamic Background Effects
+✔️ Modern UI using TailwindCSS
+✔️ Auto-Updating Year in Footer
+✔️ Project Details Page
+✔️ Social Media Integration
+✔️ Fast Loading (Vite + Optimized Assets)
+✔️ Clean Code with Components Structure
 
-Here’s a simple guide to run this project.  
+🛠️ Tech Stack
+Category	Technologies
+Frontend	React.js, JSX, Vite
+Styling	TailwindCSS, Custom CSS
+Animations	AOS, Framer Motion
+Icons	Lucide Icons, SVGs
+Deployment	Vercel / Netlify
+Package Manager	NPM
+📁 Project Structure
+Portfolio-Update-2/
+│── public/
+│   ├── Photo.png
+│   ├── reactjs.svg
+│   ├── ml.png
+│   └── ...assets
+│
+│── src/
+│   ├── components/
+│   │   ├── Navbar.jsx
+│   │   ├── Background.jsx
+│   │   ├── SocialLinks.jsx
+│   │   ├── CardProject.jsx
+│   │   └── ProjectDetail.jsx
+│   │
+│   ├── Pages/
+│   │   ├── Home.jsx
+│   │   ├── About.jsx
+│   │   ├── Portofolio.jsx
+│   │   ├── Contact.jsx
+│   │   └── WelcomeScreen.jsx
+│   │
+│   ├── context/ProjectContext.jsx
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+│
+└── package.json
 
-## Prerequisites  
+📸 Screenshots
 
-Ensure that you have already installed:  
-- **Node.js**  
+Home Page
 
----
 
-## Steps to Run the Project  
+About Page
 
-1. **Download this project:**  
 
-   ```bash  
-   git clone https://github.com/EkiZR/Portofolio_V5.git  
-   ```  
+Contact Page
 
-2. **Install all dependencies:**  
 
-   ```bash  
-   npm install  
-   ```  
-   Or use:  
+(You can update the file names according to your screenshots.)
 
-   ```bash  
-   npm install --legacy-peer-deps  
-   ```  
+⚡ Running Locally
 
-3. **Run the project:**  
+Clone the project:
 
-   ```bash  
-   npm run dev  
-   ```  
+git clone https://github.com/prashant13245/Portfolio.git
 
-4. **Open in browser:**  
 
-   Access the application through the link displayed in your terminal.  
+Go inside the folder:
 
----
+cd Portfolio
 
-## Creating a Production Build  
 
-To create a production-ready build:  
+Install dependencies:
 
-1. Run the build command:  
+npm install
 
-   ```bash  
-   npm run build  
-   ```  
 
-2. The build files will be saved in the `dist` folder. You can upload this folder to your hosting server.  
+Run the development server:
 
----
+npm run dev
 
-## Notes  
 
-If you encounter issues while running the project, ensure that:  
-- Node.js is correctly installed.  
-- You’re in the correct project directory.  
-- All dependencies are installed without errors.  
+Build for production:
 
----
+npm run build
 
-## Firebase Configuration  
+🚀 Deploy
 
-To configure Firebase for this project, follow these steps:  
+You can deploy this portfolio easily using Vercel:
 
-1. **Add Firebase to the Project:**  
-   - Go to the [Firebase Console](https://console.firebase.google.com/).  
-   - Create a new project or use an existing one.  
+Login → https://vercel.com
 
-2. **Enable Firestore Database:**  
-   - Create a database.  
+Import GitHub Repository
 
-3. **Go to Project Settings:**  
-   - Click the settings icon.  
-   - Copy the Firebase configuration.  
+Click Deploy
 
-4. **Go to Rules:**  
-   - Set the rules to `true`.  
+Done 🎉
 
-5. **Adjust the Collection Structure:**  
-   - Set up the collections as shown in the following images:  
+📬 Contact
 
-   ![Collection Structure Example 1](https://github.com/user-attachments/assets/38580122-08a4-4499-a8fd-0f253652a239)  
-   ![Collection Structure Example 2](https://github.com/user-attachments/assets/d563d7ad-f1ab-46ff-8185-640dcebd0363)  
+Portfolio Owner: Prashant Trivedi
+📧 Email: prashanttrivedi2460@gmail.com
 
-6. **Update `firebase.js` and `firebase-comment.js` Files:**  
-   - Replace the `firebaseConfig` content with your Firebase configuration.  
+🔗 GitHub: https://github.com/prashant13245
 
+🔗 LinkedIn: https://linkedin.com/in/prashanttrivedi
+
+⭐ Support
+
+If you like this project, please ⭐ the repository!
