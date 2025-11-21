@@ -325,7 +325,7 @@ export default function FullWidthTabs() {
               </div>
             </div>
           </TabPanel>
-        </SwipeableViews>
+        
       </Box>
     </div>
   );
